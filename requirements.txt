@@ -1,4 +1,7 @@
 streamlit
 numpy
 matplotlib
-pip install plotly
+plotly
+streamlit==1.25.0
+pandas==2.1.0
+plotly==5.15.0
