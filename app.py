@@ -88,8 +88,8 @@ if st.button("Proses Data"):
 
     # Tampilkan waktu eksekusi dan hasil pengurutan
     st.write(f"**Waktu Eksekusi:**")
-    st.write(f"Bubble Sort: {bubble_sort_time:.2f} ms")
-    st.write(f"Merge Sort: {merge_sort_time:.2f} ms")
+    st.write(f"Bubble Sort: {bubble_sort_time:.10f} ms")
+    st.write(f"Merge Sort: {merge_sort_time:.10f} ms")
 
     # Hasil Bubble Sort
     st.write("**Hasil Pengurutan (Bubble Sort):**")
